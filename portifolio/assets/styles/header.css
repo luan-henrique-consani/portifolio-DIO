@@ -1,0 +1,139 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .text h1 {
+    font-weight: 300;
+}
+
+.header .informations {
+    padding: 0;
+}
+
+.header .informations li {
+    list-style: none;
+}
+
+.header .informations i {
+    color: #a94dff;
+    margin-right: .25rem;
+}
+
+.header .photo {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+}
+
+.header .title {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .header .photo {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .header .informations li {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .header .photo {
+        width: 15rem;
+        height: 15rem;
+        margin-right: 10%;
+    }
+
+    .header .informations li {
+        font-size: 13px;
+
+    }
+
+    .header .text {
+        display: flex;
+        flex-direction: column;
+        width: 12.5rem;
+    }
+
+    .header .text h1 {
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1920px)  {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .header .photo {
+        width: 15rem;
+        height: 15rem;
+        margin-right: 10%;
+    }
+
+    .header .informations li {
+        font-size: 13px;
+
+    }
+
+    .header .text {
+        display: flex;
+        flex-direction: column;
+        width: 12.5rem;
+    }
+
+    .header .text h1 {
+        text-align: left;
+    }
+}
+
+
+@media (min-width: 1920px) and (max-width: 2600px)  {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .header .photo {
+        width: 15rem;
+        height: 15rem;
+        margin-right: 10%;
+    }
+
+    .header .informations li {
+        font-size: 15px;
+
+    }
+
+    .header .text {
+        display: flex;
+        flex-direction: column;
+        width: 14.5rem;
+    }
+
+    .header .text h1 {
+        text-align: left;
+    }
+}

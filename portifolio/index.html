@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio - DIO</title>
+    <!-- Fontes e Icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/560340c572.js" crossorigin="anonymous"></script>
+
+    <!-- Meu CSS-->
+    <link rel="stylesheet" href="assets/styles/global.css">
+    <link rel="stylesheet" href="assets/styles/header.css">
+    <link rel="stylesheet" href="assets/styles/acordeon.css">
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <img src="assets/images/foto_luan.jpg" alt="foto do Luan" class="photo">
+            
+            <div class="text">
+                <h1 class="title">Olá,<br> me chamo Luan Consani</h1>
+    
+                <ul class="informations">
+                    <li><i class="fa-solid fa-user"></i> Junior Web Devoloper</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Paraná - BR</li>
+                    <li><i class="fa-brands fa-whatsapp"></i> 43 99150-4447</li>
+                    <li><i class="fa-solid fa-envelope"></i> consaniluan42@gmail.com</li>
+                </ul>
+            </div>
+        </header>
+        <section class="acordeon idiomas">
+            <button type="button" class="trigger">Idiomas <i class="fa-solid fa-chevron-down"></i></button>
+
+            <div class="content">
+                <ul>
+                    <li><i class="fa-solid fa-check"></i> Portugês(BR)</li>
+                    <li><i class="fa-solid fa-check"></i> Inglês</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon educacao">
+            <button type="button" class="trigger">Educação <i class="fa-solid fa-chevron-down"></i></button>
+
+            <div class="content">
+                <ul>
+                    <li><strong>Colégio Benedita</strong> - Ensino médio</li>
+                    <li><strong>SENAI Londrina</strong> - Desenvolvimento de sistemas</li>
+                    <li><strong>UniSenai Celso Charuri</strong> - Engenharia de Software</li>
+                    <li><strong>DIO</strong> - Dev. Javascript</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon portifolio">
+            <button type="button" class="trigger">Portifólio <i class="fa-solid fa-chevron-down"></i></button>
+
+            <div class="content">
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-github"></i><strong>E-commerce Nics - projeto acadêmico</strong>
+                        <br>
+                        <small>https://github.com/luan-henrique-consani/nics-project</small>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-github"></i><strong>LuxApp - OpenG UniSenai</strong>
+                        <br>
+                        <small>https://github.com/mbolotaro/LuxApp</small>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-github"></i><strong>Micro Saas - Codante.IO</strong>
+                        <br>
+                        <small>https://github.com/codante-io/mp-saas-next-auth-prisma-next</small>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-github"></i><strong>Tela de Login - projeto acadêmico</strong>
+                        <br>
+                        <small>https://github.com/luan-henrique-consani/tela-login-res</small>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acordeon exp-profissional">
+            <button type="button" class="trigger">Experiência Profissional <i class="fa-solid fa-chevron-down"></i></button>
+
+            <div class="content">
+                <ul>
+                    <li><strong>Assistente de T.I</strong> - Ts Merchandising</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <script src="assets/scripts/mais.js"></script>
+</body>
+
+</html>
